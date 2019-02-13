@@ -2,13 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dilo en secreto</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    
+    <header class="header">DILO EN SECRETO</header>
+    <h1 id="send">Envía mensajes secretos a quien desees</h1>
+    
+
+    <section>
+    <div id="intro">
+
+        <h1 id="inst">Instrucciones:</h1>
+        <h2>Escribe un texto que quieras cifrar o descifrar</h2>
+        <h2>Solo puedes usar letras mayúsculas, sin signos, ni espacios, ni ñ</h2>
+        <h2>Elige un número secreto y compártelo con tu amiga o amigo</h2>
+        <h2>Tu número secreto debe ser positivo</h2>
+       
     </div>
+
+    <div id="caja1">
+<input type="text" id="cipherExample" placeholder="Ingresa tu texto aquí"/> 
+<input type="number" id="secretNumber" placeholder="Ingresa tu número secreto"/> <br> <br>
+<button id= "encode" >Cifrar</button>
+<button id= "decode" >Descifrar</button> <br> <br>
+<input type="text" id="end" placeholder="Tu resultado acá" />
+   </div>
+
+
+
+</section>
+
+<footer>
+   
+</footer>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
