@@ -20,6 +20,7 @@ Se creó una planificación, la cual se llevó a cabo en cada tarea detalla en e
 Se diseñó un prototipo web en papel, para visualizar como debe quedar finalmente la aplicación. Se optó por un diseño simple y fácil de entender para el usuario.
 
 ![Prototipo](readme-pic.jpeg)
+
 Imagen de como se ideó el prototipo de la aplicación.
 
 
